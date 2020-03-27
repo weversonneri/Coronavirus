@@ -5,12 +5,13 @@
     O novo coronavírus (SARS-CoV-2), descoberto em dezembro de 2019, faz parte de uma nova cepa de coronavírus que ainda não havia sido identificado em humanos. O SARS-CoV-2 causa a doença que foi oficialmente chamada de COVID-19 pela Organização Mundial da Saúde. O nome é um acrônimo do termo “doença por corona vírus” – em inglês Coronavirus disease 2019. Até 12 de março de 2020, 114 países registravam ocorrências da doença, totalizando 127.863 casos confirmados (80.932 apenas na China). O novo coronavírus já causou a morte de 4.718 pessoas, sendo 3.056 na China.</string>
     <string name="text_main">Coronavírus é uma grande família de vírus que causa infecções respiratórias. Em dezembro de 2019, um novo tipo de coronavírus, que ainda não havia sido identificado, apareceu na China e rapidamente se espalhou pelo mundo.</string>
     <string name="button_about">Dicas</string>
-    <string name="button_audio">Ouça sobre o assunto</string>
-    <string name="button_video">Videos</string>
+    <string name="button_midia">Midia</string>
     <string name="button_test">Faça o teste</string>
     <string name="textview_test_title">Quais sintomas você apresenta?</string>
     <string name="textView_contato_proximo">Teve contato próximo com caso suspeito ou confirmado de COVID-19 nos últimos 14 dias?</string>
     <string name="textView_regiao_epidemica">Esteve em região epidêmica nos últimos 14 dias?</string>
     <string name="button_test_confirm">Confirmar</string>
     <string name="textView_test_positive">Baseado em suas respostas, é provável que esta situação se enquadre como caso suspeito ou provável de doença pelo coronavírus 2019 (COVID-19). No entanto, isto não se trata de um diagnóstico. A orientação é que você procure atendimento em uma unidade de saúde maus próxima para avaliação clínica. </string>
+    <string name="textView_dialog_negative_title">Caso Improvável</string>
+    <string name="textView_dialog_negative_body">Baseado em suas respostas, é provável que essa situação NÃo se enquadre como caso suspeito de doença pelo coronavírus 2019 (COVID-19). Mantenha as condutas de precaução e prevenção, praticando a etiqueta respiratória.</string>
 </resources>

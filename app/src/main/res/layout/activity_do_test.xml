@@ -3,13 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/activy_background"
     android:padding="10dp"
     tools:context=".DoTestActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:background="@drawable/do_test_elevation"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -26,7 +30,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     android:text="@string/textview_test_title"
-                    android:textSize="30sp" />
+                    android:textSize="25sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -43,7 +47,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Febre"
-                        android:textSize="25sp" />
+                        android:textSize="20sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -61,7 +65,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Tosse"
-                        android:textSize="25sp" />
+                        android:textSize="20sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -79,7 +83,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Dôr de cabeça"
-                        android:textSize="25sp" />
+                        android:textSize="20sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -97,7 +101,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Cansaço"
-                        android:textSize="25sp" />
+                        android:textSize="20sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -115,7 +119,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Dor de garganta"
-                        android:textSize="25sp" />
+                        android:textSize="20sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -133,7 +137,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Coriza"
-                        android:textSize="25sp" />
+                        android:textSize="20sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -151,7 +155,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Dificuldade para respirar"
-                        android:textSize="25sp" />
+                        android:textSize="20sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -169,7 +173,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Dores pelo corpo"
-                        android:textSize="25sp" />
+                        android:textSize="20sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -182,7 +186,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/textView_contato_proximo"
-                        android:textSize="25sp" />
+                        android:textSize="23sp" />
 
                     <RadioGroup
                         android:layout_width="match_parent"
@@ -195,8 +199,9 @@
                             android:id="@+id/radio_contato_yes"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:onClick="changeButtonColor"
                             android:text="Sim"
-                            android:textSize="25sp" />
+                            android:textSize="20sp" />
 
                         <Space
                             android:layout_width="50dp"
@@ -206,8 +211,9 @@
                             android:id="@+id/radio_contato_no"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:onClick="changeButtonColor"
                             android:text="Não"
-                            android:textSize="25sp" />
+                            android:textSize="20sp" />
                     </RadioGroup>
 
                 </LinearLayout>
@@ -216,14 +222,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:orientation="vertical"
-                    android:layout_marginBottom="30dp" >
+                    android:layout_marginBottom="30dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/textView_regiao_epidemica"
-                        android:textSize="25sp" />
+                        android:textSize="23sp" />
 
                     <RadioGroup
                         android:layout_width="match_parent"
@@ -236,8 +242,9 @@
                             android:id="@+id/radio_regiao_yes"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:onClick="changeButtonColor"
                             android:text="Sim"
-                            android:textSize="25sp" />
+                            android:textSize="20sp" />
 
                         <Space
                             android:layout_width="50dp"
@@ -247,8 +254,9 @@
                             android:id="@+id/radio_regiao_no"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:onClick="changeButtonColor"
                             android:text="Não"
-                            android:textSize="25sp" />
+                            android:textSize="20sp" />
                     </RadioGroup>
 
                 </LinearLayout>
@@ -269,7 +277,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_do_test_confirm_background"
                 android:text="@string/button_test_confirm"
-                android:textColor="@color/button_text_color"
+                android:textColor="@color/white"
                 android:textSize="18sp" />
 
         </LinearLayout>

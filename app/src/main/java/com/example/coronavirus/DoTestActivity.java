@@ -1,8 +1,11 @@
 package com.example.coronavirus;
 
+import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
@@ -38,6 +41,7 @@ public class DoTestActivity extends AppCompatActivity implements View.OnClickLis
 
         mconfirm.setOnClickListener(this);
 
+
     }
 
     public void onClick(View v) {
@@ -48,7 +52,7 @@ public class DoTestActivity extends AppCompatActivity implements View.OnClickLis
             resultado += 2;
         }
         if (mtosse.isChecked()) {
-            resultado += 2;
+            resultado++;
         }
         if (mdor_cabeca.isChecked()) {
             resultado++;
@@ -68,45 +72,49 @@ public class DoTestActivity extends AppCompatActivity implements View.OnClickLis
         if (mdor_corpo.isChecked()) {
             resultado++;
         }
-        if (resultado == 0) {
-            Toast.makeText(DoTestActivity.this, "Marque alguma", Toast.LENGTH_LONG).show();
 
-        } else {
-            if ((mcontatoyes.isChecked() || mcontatono.isChecked()) && (mregiaoyes.isChecked() || mregiaono.isChecked()) ) {
+        if (v.getId() == R.id.button_do_test_confirm) {
+            if (resultado > 0) {
+                if ((mcontatoyes.isChecked() || mcontatono.isChecked()) && (mregiaoyes.isChecked() || mregiaono.isChecked())) {
 
-                if (mcontatoyes.isChecked() && resultado >= 3) {
-                    Intent intent = new Intent(DoTestActivity.this, PositiveActivity.class);
-                    startActivity(intent);
+                    if ((mcontatoyes.isChecked() || mregiaoyes.isChecked()) && resultado >= 2) {
+                        Intent intent = new Intent(DoTestActivity.this, PositiveActivity.class);
+                        startActivity(intent);
 
-                } else if (mregiaoyes.isChecked() && resultado >= 3) {
-                    Intent intent = new Intent(DoTestActivity.this, PositiveActivity.class);
-                    startActivity(intent);
+                    } else {
+                        showDialog();
 
+                    }
                 } else {
-                    Intent intent = new Intent(this, NegativeActivity.class);
-                    startActivity(intent);
+                    Toast.makeText(DoTestActivity.this, "Marque alguma", Toast.LENGTH_LONG).show();
                 }
             } else {
-                Toast.makeText(DoTestActivity.this, "Marque alguma", Toast.LENGTH_LONG).show();
+                Toast.makeText(DoTestActivity.this, "Marque alguma aaaa", Toast.LENGTH_LONG).show();
             }
-
         }
+
+
+    }
+
+    public void changeButtonColor(View view) {
+        if ((mcontatoyes.isChecked() || mcontatono.isChecked()) && (mregiaoyes.isChecked() || mregiaono.isChecked())) {
+            mconfirm.setBackgroundResource(R.drawable.button_do_test_confirm_background_active);
+        }
+    }
+
+    public void showDialog() {
+        Dialog dialog = new Dialog(DoTestActivity.this);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+
+        dialog.setContentView(R.layout.dialog_negative);
+
+        dialog.show();
+    }
+
+
+    public void fechar(View view) {
+        Intent intent = new Intent(DoTestActivity.this, MainActivity.class);
+        startActivity(intent);
     }
 }
 
-
-
-
-   /* public void onCheckboxClicked(View v) {
-        int resultado = 0;
-        boolean checked = ((CheckBox) v).isChecked();
-
-        switch (v.getId()) {
-            case R.id.checkbox_febre:
-                if (checked) {
-                    resultado++;
-
-                }
-            case
-        }Toast.makeText(DoTestActivity.this, String.valueOf(resultado), Toast.LENGTH_LONG).show();
-*/

@@ -5,13 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@android:color/holo_red_dark"
     android:padding="10dp"
     tools:context=".PositiveActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:elevation="10dp"
+        android:background="@drawable/do_test_elevation">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -38,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:padding="10dp"
                     android:text="@string/textView_test_positive"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -52,11 +56,12 @@
             android:gravity="center">
 
             <Button
+                android:id="@+id/button_positive_fechar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_test_positive_background"
                 android:text="fechar"
-                android:textColor="@color/button_text_color"
+                android:textColor="@color/white"
                 android:textSize="18sp" />
 
         </LinearLayout>
