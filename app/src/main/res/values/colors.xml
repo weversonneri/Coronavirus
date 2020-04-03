@@ -9,4 +9,5 @@
     <color name="white">#ffffff</color>
     <color name="button_test_positive_background_color">#F7D836</color>
     <color name="activy_background">#D6D6D6</color>
+    <color name="black">#000000</color>
 </resources>
