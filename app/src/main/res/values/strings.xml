@@ -24,4 +24,8 @@
         \nTosse
         \nCatarro
         \nObjetos ou superfícies contaminadas como celulares, mesas, maçanetas, brinquedos e teclados de computador etc.</string>
+    <string name="textView_orientacao_port">Orientação geral - Português</string>
+    <string name="textView_orientacao_ing">Orientação geral - Inglês</string>
+    <string name="textView_orientacao_fazer_port">Orientação da doença e o que fazer - Português</string>
+    <string name="textView_orientacao_fazer_ing">Orientação da doença e o que fazer - Inglês</string>
 </resources>

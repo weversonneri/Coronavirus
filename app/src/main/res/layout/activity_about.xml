@@ -35,7 +35,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:text="@string/textView_o_que_sao"
-                android:textSize="23dp"
+                android:textSize="25dp"
                 android:textStyle="bold" />
 
             <TextView

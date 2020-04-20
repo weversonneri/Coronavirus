@@ -76,8 +76,8 @@
                         android:padding="10dp">
 
                         <ImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
                             android:background="@drawable/ic_virus" />
 
                         <TextView
@@ -114,8 +114,8 @@
                         android:padding="10dp">
 
                         <ImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
                             android:background="@drawable/ic_transmissao" />
 
                         <TextView
@@ -155,8 +155,8 @@
                         android:padding="10dp">
 
                         <ImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
                             android:background="@drawable/ic_febre" />
 
                         <TextView
@@ -193,8 +193,8 @@
                         android:padding="10dp">
 
                         <ImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
                             android:background="@drawable/ic_lavando_as_maos" />
 
                         <TextView
@@ -234,8 +234,8 @@
                         android:padding="10dp">
 
                         <ImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
                             android:background="@drawable/ic_video" />
 
                         <TextView
@@ -262,7 +262,7 @@
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:id="@+id/layout_podcast"
+                        android:id="@+id/layout_audio"
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:layout_margin="10dp"
@@ -272,16 +272,16 @@
                         android:padding="10dp">
 
                         <ImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:background="@drawable/ic_podcast" />
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/ic_audio" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="left"
                             android:layout_marginTop="20dp"
-                            android:text="Podcast"
+                            android:text="Informes Sonoros"
                             android:textSize="20dp"
                             android:textStyle="bold" />
 

@@ -9,8 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HowProtectActivity"></activity>
-        <activity android:name=".TransmitionActivity" />
+        <activity android:name=".AudioActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".HowProtectActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TransmitionActivity"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".PlayVideoActivity"
             android:configChanges="orientation|screenSize"

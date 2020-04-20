@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button doTest;
-    LinearLayout about, video, transmicao;
+    LinearLayout about, video, transmicao, protecao, audio;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,11 +22,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         about = findViewById(R.id.layout_o_que_sao);
         video = findViewById(R.id.layout_video);
         transmicao = findViewById(R.id.layout_como_transmite);
+        protecao = findViewById(R.id.layout_como_se_proteger);
+        audio = findViewById(R.id.layout_audio);
 
         doTest.setOnClickListener(this);
         about.setOnClickListener(this);
         video.setOnClickListener(this);
         transmicao.setOnClickListener(this);
+        protecao.setOnClickListener(this);
+        audio.setOnClickListener(this);
     }
 
 
@@ -36,7 +40,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (v.getId() == R.id.button_do_test) {
             Intent intent = new Intent(MainActivity.this, DoTestActivity.class);
             startActivity(intent);
-
         }
         if (v.getId() == R.id.layout_o_que_sao) {
             Intent intent = new Intent(this, AboutActivity.class);
@@ -48,6 +51,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         if (v.getId() == R.id.layout_como_transmite) {
             Intent intent = new Intent(this, TransmitionActivity.class);
+            startActivity(intent);
+        }
+        if (v.getId() == R.id.layout_como_se_proteger) {
+            Intent intent = new Intent(this, HowProtectActivity.class);
+            startActivity(intent);
+        }
+        if (v.getId() == R.id.layout_audio) {
+            Intent intent = new Intent(this, AudioActivity.class);
             startActivity(intent);
         }
     }
