@@ -27,7 +27,7 @@
                 android:text="@string/title_main"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30dp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <Space
@@ -85,8 +85,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="left"
                             android:layout_marginTop="20dp"
-                            android:text="@string/textView_o_que_sao"
-                            android:textSize="20dp"
+                            android:text="@string/textView_o_que_sao_title"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -123,8 +123,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="left"
                             android:layout_marginTop="20dp"
-                            android:text="@string/textView_como_transmitido"
-                            android:textSize="20dp"
+                            android:text="@string/textView_transmicao_title"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -164,8 +164,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="left"
                             android:layout_marginTop="20dp"
-                            android:text="@string/textView_quais_sintomas"
-                            android:textSize="20dp"
+                            android:text="@string/textView_sintomas_title"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -202,8 +202,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="left"
                             android:layout_marginTop="20dp"
-                            android:text="@string/textView_como_se_proteger"
-                            android:textSize="20dp"
+                            android:text="@string/textView_como_proteger_title"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -243,8 +243,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="left"
                             android:layout_marginTop="20dp"
-                            android:text="@string/textView_como_lavar_maos"
-                            android:textSize="20dp"
+                            android:text="@string/textView_como_lavar_maos_thumb"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -282,7 +282,7 @@
                             android:layout_gravity="left"
                             android:layout_marginTop="20dp"
                             android:text="Informes Sonoros"
-                            android:textSize="20dp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                     </LinearLayout>

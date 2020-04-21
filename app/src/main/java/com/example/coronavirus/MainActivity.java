@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button doTest;
-    LinearLayout about, video, transmicao, protecao, audio;
+    LinearLayout about, video, transmicao, protecao, audio, sintoma;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         transmicao = findViewById(R.id.layout_como_transmite);
         protecao = findViewById(R.id.layout_como_se_proteger);
         audio = findViewById(R.id.layout_audio);
+        sintoma = findViewById(R.id.layout_quais_sintomas);
 
         doTest.setOnClickListener(this);
         about.setOnClickListener(this);
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         transmicao.setOnClickListener(this);
         protecao.setOnClickListener(this);
         audio.setOnClickListener(this);
+        sintoma.setOnClickListener(this);
     }
 
 
@@ -42,23 +44,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         }
         if (v.getId() == R.id.layout_o_que_sao) {
-            Intent intent = new Intent(this, AboutActivity.class);
+            Intent intent = new Intent(MainActivity.this, AboutActivity.class);
             startActivity(intent);
         }
         if (v.getId() == R.id.layout_video) {
-            Intent intent = new Intent(this, VideoActivity.class);
+            Intent intent = new Intent(MainActivity.this, VideoActivity.class);
             startActivity(intent);
         }
         if (v.getId() == R.id.layout_como_transmite) {
-            Intent intent = new Intent(this, TransmitionActivity.class);
+            Intent intent = new Intent(MainActivity.this, TransmitionActivity.class);
             startActivity(intent);
         }
         if (v.getId() == R.id.layout_como_se_proteger) {
-            Intent intent = new Intent(this, HowProtectActivity.class);
+            Intent intent = new Intent(MainActivity.this, HowProtectActivity.class);
             startActivity(intent);
         }
         if (v.getId() == R.id.layout_audio) {
-            Intent intent = new Intent(this, AudioActivity.class);
+            Intent intent = new Intent(MainActivity.this, AudioActivity.class);
+            startActivity(intent);
+        }
+        if (v.getId() == R.id.layout_quais_sintomas) {
+            Intent intent = new Intent(MainActivity.this, SymptomActivity.class);
             startActivity(intent);
         }
     }

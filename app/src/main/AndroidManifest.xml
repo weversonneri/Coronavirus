@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AudioActivity"
-            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".SymptomActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AudioActivity"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".HowProtectActivity"
             android:parentActivityName=".MainActivity" />

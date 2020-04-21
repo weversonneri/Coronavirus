@@ -26,16 +26,16 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/textView_como_transmitido"
-                android:textSize="25dp"
+                android:text="@string/textView_transmicao_title"
+                android:textSize="25sp"
                 android:textStyle="bold"/>
 
             <TextView
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/textView_transmicao"
-                android:textSize="20dp"/>
+                android:text="@string/textView_transmicao_body"
+                android:textSize="20sp"/>
 
         </LinearLayout>
 

@@ -60,6 +60,8 @@ public class AudioActivity extends AppCompatActivity implements View.OnClickList
                 player.start();
                 button04.setImageResource(R.drawable.ic_pausa);
 
+                break;
+
         }
 
     }

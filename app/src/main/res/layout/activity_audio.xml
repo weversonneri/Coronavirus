@@ -19,7 +19,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Informes Sonoros"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:textStyle="bold"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -42,7 +43,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="20dp"
                 android:text="@string/textView_orientacao_port"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -71,7 +72,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="20dp"
                 android:text="@string/textView_orientacao_fazer_port"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -100,7 +101,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="20dp"
                 android:text="@string/textView_orientacao_ing"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -129,7 +130,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="20dp"
                 android:text="@string/textView_orientacao_fazer_ing"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
         </LinearLayout>

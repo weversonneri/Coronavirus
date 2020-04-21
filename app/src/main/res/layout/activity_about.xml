@@ -34,15 +34,15 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:text="@string/textView_o_que_sao"
-                android:textSize="25dp"
+                android:text="@string/textView_o_que_sao_title"
+                android:textSize="25sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="@string/text_about"
+                android:text="@string/textView_o_que_sao_body"
                 android:textSize="20sp" />
 
         </LinearLayout>

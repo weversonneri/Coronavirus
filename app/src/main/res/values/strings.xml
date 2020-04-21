@@ -1,31 +1,54 @@
 <resources>
     <string name="app_name">Coronavirus</string>
     <string name="title_main">Coronavírus (COVID-19)</string>
-    <string name="text_about">Os coronavírus são uma grande família de vírus que causam infecções respiratórias em humanos e também em animais. Os coronavírus são a segunda principal causa do resfriado comum, após o rinovírus. Há sete tipos de coronavírus conhecidos por infectarem humanos, dentre eles o SARS-CoV (causador da Síndrome Respiratória Aguda Grave ou SARS) e o MERS-CoV (causador da Síndrome Respiratória do Oriente Médio ou MERS).
+    <string name="textView_o_que_sao_body">Os coronavírus são uma grande família de vírus que causam infecções respiratórias em humanos e também em animais. Os coronavírus são a segunda principal causa do resfriado comum, após o rinovírus. Há sete tipos de coronavírus conhecidos por infectarem humanos, dentre eles o SARS-CoV (causador da Síndrome Respiratória Aguda Grave ou SARS) e o MERS-CoV (causador da Síndrome Respiratória do Oriente Médio ou MERS).
     O novo coronavírus (SARS-CoV-2), descoberto em dezembro de 2019, faz parte de uma nova cepa de coronavírus que ainda não havia sido identificado em humanos. O SARS-CoV-2 causa a doença que foi oficialmente chamada de COVID-19 pela Organização Mundial da Saúde. O nome é um acrônimo do termo “doença por corona vírus” – em inglês Coronavirus disease 2019. Até 12 de março de 2020, 114 países registravam ocorrências da doença, totalizando 127.863 casos confirmados (80.932 apenas na China). O novo coronavírus já causou a morte de 4.718 pessoas, sendo 3.056 na China.</string>
     <string name="button_test">Faça o teste</string>
     <string name="textview_test_title">Quais sintomas você apresenta?</string>
     <string name="textView_contato_proximo">Teve contato próximo com caso suspeito ou confirmado de COVID-19 nos últimos 14 dias?</string>
     <string name="textView_regiao_epidemica">Esteve em região epidêmica nos últimos 14 dias?</string>
     <string name="button_test_confirm">Confirmar</string>
-    <string name="textView_test_positive">Baseado em suas respostas, é provável que esta situação se enquadre como caso suspeito ou provável de doença pelo coronavírus 2019 (COVID-19). No entanto, isto não se trata de um diagnóstico. A orientação é que você procure atendimento em uma unidade de saúde maus próxima para avaliação clínica. </string>
+    <string name="textView_test_positive_body">Baseado em suas respostas, é provável que esta situação se enquadre como caso suspeito ou provável de doença pelo coronavírus 2019 (COVID-19). No entanto, isto não se trata de um diagnóstico. A orientação é que você procure atendimento em uma unidade de saúde maus próxima para avaliação clínica. </string>
     <string name="textView_dialog_negative_title">Caso Improvável</string>
     <string name="textView_dialog_negative_body">Baseado em suas respostas, é provável que essa situação NÃo se enquadre como caso suspeito de doença pelo coronavírus 2019 (COVID-19). Mantenha as condutas de precaução e prevenção, praticando a etiqueta respiratória.</string>
-    <string name="textView_o_que_sao">O que são coronavírus?</string>
-    <string name="textView_como_transmitido">Como o coronavírus é transmitido?</string>
-    <string name="textView_quais_sintomas">Quais são os sintomas do coronavírus?</string>
-    <string name="textView_como_se_proteger">Como se proteger</string>
-    <string name="textView_como_lavar_maos">Dr. Drauzio ensina como lavar as mãos corretamente</string>
+    <string name="textView_o_que_sao_title">O que são coronavírus?</string>
+    <string name="textView_transmicao_title">Como o coronavírus é transmitido?</string>
+    <string name="textView_sintomas_title">Quais são os sintomas do coronavírus?</string>
+    <string name="textView_como_proteger_title">Como se proteger</string>
+    <string name="textView_como_lavar_maos_thumb">Dr. Drauzio ensina como lavar as mãos corretamente</string>
     <string name="textView_como_lavar_mao_title">Como lavar a mão corretamente</string>
     <string name="textView_como_lavar_mao_body">Dr. Drauzio ensina como lavar as mãos corretamente para evitar infecções, entre elas a causada pelo novo coronavírus. Aprenda no vídeo.</string>
-    <string name="textView_transmicao">A transmissão acontece de uma pessoa doente para outra ou por contato próximo por meio de:
-        \n.O toque do aperto de mão é a principal forma de contágio Gotículas de saliva
-        \n<ul> Espirro </ul>
-        \nTosse
-        \nCatarro
-        \nObjetos ou superfícies contaminadas como celulares, mesas, maçanetas, brinquedos e teclados de computador etc.</string>
+    <string name="textView_transmicao_body">A transmissão acontece de uma pessoa doente para outra ou por contato próximo por meio de:
+        \n\n<ul><li>O toque do aperto de mão é a principal forma de contágio.</li>
+        \n<li>Gotículas de saliva.</li>
+        \n<li>Espirro.</li>
+        \n<li>Tosse.</li>
+        \n<li>Catarro.</li>
+        \n<li>Objetos ou superfícies contaminadas como celulares, mesas, maçanetas, brinquedos e teclados de computador etc.</li></ul></string>
     <string name="textView_orientacao_port">Orientação geral - Português</string>
     <string name="textView_orientacao_ing">Orientação geral - Inglês</string>
     <string name="textView_orientacao_fazer_port">Orientação da doença e o que fazer - Português</string>
     <string name="textView_orientacao_fazer_ing">Orientação da doença e o que fazer - Inglês</string>
+    <string name="textView_sintomas_texto">Os sintomas da COVID-19 podem variar de um simples resfriado até uma pneumonia severa. Sendo os sintomas mais comuns:
+    \n\n<ul><li>Tosse</li>
+    \n<li>Febre</li>
+    \n<li>Coriza</li>
+    \n<li>Dor de garganta</li>
+    \n<li>Dificuldade para respirar</li></ul></string>
+    <string name="textView_como_proteger_body">As recomendações de prevenção à COVID-19 são as seguintes:
+        \n\n<ul><li>Lave com frequência as mãos até a altura dos punhos, com água e sabão, ou então higienize com álcool em gel 70%.</li>
+            \n<li>Ao tossir ou espirrar, cubra nariz e boca com lenço ou com o braço, e não com as mãos.</li>
+            \n<li>Evite tocar olhos, nariz e boca com as mãos não lavadas.</li>
+            \n<li>Ao tocar, lave sempre as mãos como já indicado.</li>
+            \n<li>Mantenha uma distância mínima de cerca de 2 metros de qualquer pessoa tossindo ou espirrando.</li>
+            \n<li>Evite abraços, beijos e apertos de mãos. Adote um comportamento amigável sem contato físico, mas sempre com um sorriso no rosto.</li>
+            \n<li>Higienize com frequência o celular e os brinquedos das crianças.</li>
+            \n<li>Não compartilhe objetos de uso pessoal, como talheres, toalhas, pratos e copos.</li>
+            \n<li>Mantenha os ambientes limpos e bem ventilados.</li>
+            \n<li>Evite circulação desnecessária nas ruas, estádios, teatros, shoppings, shows, cinemas e igrejas. Se puder, fique em casa.</li>
+            \n<li>Se estiver doente, evite contato físico com outras pessoas, principalmente idosos e doentes crônicos, e fique em casa até melhorar.</li>
+            \n<li>Durma bem e tenha uma alimentação saudável.</li>
+            \n<li>Utilize máscaras caseiras ou artesanais feitas de tecido em situações de saída de sua residência.</li>
+        </ul>
+    </string>
 </resources>
